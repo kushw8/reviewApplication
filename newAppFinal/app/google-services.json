@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1085300367366",
+    "firebase_url": "https://onemorerep-a0af2.firebaseio.com",
+    "project_id": "onemorerep-a0af2",
+    "storage_bucket": "onemorerep-a0af2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085300367366:android:53942abe807b07ca646387",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085300367366-lc043i75t4hhegk73bets64ibu028vob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC16xUzLGcqcfDPS4uKNvDNKlH8i6w1tAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085300367366-lc043i75t4hhegk73bets64ibu028vob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

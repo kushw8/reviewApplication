@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".submit"
+    android:orientation="vertical"
+    android:gravity="center">
+
+   <ImageView
+       android:id="@+id/s_img"
+       android:layout_width="150dp"
+       android:layout_height="150dp"/>
+
+    <EditText
+       android:id="@+id/s_getName"
+       android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:hint="Put Image Name"
+       android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/s_btn"
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Get Image"
+        android:onClick="downloadImage"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/s_textview"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/s_btn2"
+        android:text="show reviews"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
